@@ -6,7 +6,7 @@ public enum PlantCalculationCenter implements PlantNutriNeed{
         //polymorfism på varje @override
         @Override
         public void fetchNeed(double height) {
-            double mineralVattenPerDag=0.2;
+            double mineralVattenPerDag=0.02;
             String dayInput=JOptionPane.showInputDialog("Hur många dagar ska plantan stanna på boendet?");
             try{
             int days=Integer.parseInt(dayInput);
